@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;1,400&display=swap');
+
+:root {
+    --c-text: #e9eae4;
+    --c-bkg: #0F0c0c;
+
+    --ff-Header: 'Rubik', sans-serif;
+}
+
+body {
+    background-color: var(--c-bkg);
+    margin: auto;
+    font-family: var(--ff-Header);
+    color: var(--c-text);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    color: var(--c-text);
+}
+
+footer img {
+    width: 30px;
+}

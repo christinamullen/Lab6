@@ -12,18 +12,50 @@ body {
     margin: auto;
     font-family: var(--ff-Header);
     color: var(--c-text);
+    padding: 2rem 1rem 2rem 1rem;
+
 }
 
 * {
     box-sizing: border-box;
 }
 
+
+main img {
+    width: 100%;
+    height: auto;
+}
+
 footer {
+    padding: 1.5rem 0 2.5rem 0;
+}
+
+footer p {
+    text-align: center;
+}
+
+.footContent {
     display: flex;
     justify-content: center;
     color: var(--c-text);
+
 }
 
 footer img {
     width: 30px;
+}
+
+@media (min-width: 720px) {
+    body {
+        padding: 2rem 1.5rem 2rem 1.5rem;
+    }
+
+    main {
+        display: flex;
+        justify-items: center;
+        gap: 1.5rem;
+
+
+    }
+
 }

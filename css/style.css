@@ -3,7 +3,6 @@
 :root {
     --c-text: #e9eae4;
     --c-bkg: #0F0c0c;
-
     --ff-Header: 'Rubik', sans-serif;
 }
 
@@ -20,8 +19,13 @@ body {
 
 }
 
+.headwrap {
+    column-count: 1;
+}
+
 header img {
     border-radius: 10px;
+    height: 75px;
 }
 
 .wrapper {
@@ -33,14 +37,19 @@ header img {
     margin: 0 auto;
 }
 
+.headtext {
+    column-count: 1;
+}
+
+header audio {
+    padding-bottom: 1rem;
+}
 
 main img {
     width: 100%;
     height: auto;
 
 }
-
-
 
 main video {
     width: 100%;
@@ -97,6 +106,17 @@ footer img {
 
     main img {
         min-width: 230px;
+    }
+
+    .headwrap {
+        display: flex;
+        gap: 30%;
+    }
+
+
+    .headtext {
+        column-count: 2;
+        column-gap: 1rem;
     }
 
 }

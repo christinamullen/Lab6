@@ -7,6 +7,10 @@
     --ff-Header: 'Rubik', sans-serif;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: var(--c-bkg);
     margin: auto;
@@ -16,14 +20,19 @@ body {
 
 }
 
-* {
-    box-sizing: border-box;
+header img {
+    border-radius: 10px;
 }
 
 
 main img {
     width: 100%;
     height: auto;
+
+}
+
+video {
+    max-width: 405px;
 }
 
 footer {
